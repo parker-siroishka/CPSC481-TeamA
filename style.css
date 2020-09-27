@@ -1,21 +1,112 @@
-.section {
-    background-color: #E7B7A6;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.section2 {
-    background-color: white;
+.s1 {
+
+  background: linear-gradient(to left top,  #87c5c5, white);
+  background-size: cover;
+}
+.section h1 {
+  font-size: 64px;
+  position: relative;
+  background: linear-gradient(to left, #996a54, #4d220e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.slide {
-    height: 100vh;
-    width: 100vh;
+.section h2 {
+  font-size: 32px;
+  position: relative;
+  background: linear-gradient(to left, #56a9bb, #086f82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.hero-slide{
-    background-color: #E7B7A6;
+.section h4 {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5px;
+  font-size: 18px;
+  position: relative;
+  background: linear-gradient(to left, #86b7c2, #295f68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
-.hero-title {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #A0522D;
+.s2 {
+  background: linear-gradient(to left bottom,  #87c5c5, white);
+}
+.s2 h1 {
+  font-size: 48px;
+  background: linear-gradient(to left, #b18a78, #4d220e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  color: #996a54;
+}
+
+.deliverable {
+  font-size: 24px;;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+
+.description {
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.description p {
+  margin: 50px 0px;
+}
+
+ul {
+  margin-left: 50px;
+  background: linear-gradient(to left, #527880, #295f68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.contract {
+  position: relative;
+  width: 50px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  background: linear-gradient(to right, #527880, #295f68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
