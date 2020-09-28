@@ -3,7 +3,7 @@ TweenMax.defaultEase = Linear.easeOut;
 new fullpage("#fullpage", {
   //options here
   autoScrolling: true,
-  scrollOverflowReset: true,
+  scrollOverflow: true,
   navigation: true,
   licenseKey: "F3571033-D8F448C5-A6C4F335-85C49F0F",
   onLeave: (origin, destination, direction) => {

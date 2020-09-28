@@ -64,13 +64,10 @@ a {
 }
 
 .description {
-  margin-top: 10%;
-  width: 50%;
-  margin-left: 5%;
+  width: 40%;
   font-size: 20px;
-  display: flex;
-  flex-direction: column;
 }
+
 .description p {
   margin: 50px 0px;
 }
@@ -94,10 +91,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: 60%;
-  right: 10%;
-  transform: translate(-50%, -50%);
+  margin-left: 5%;
 }
 
 .link {
@@ -109,4 +103,12 @@ p {
   background: linear-gradient(to right, #527880, #295f68);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.s1-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
 }
